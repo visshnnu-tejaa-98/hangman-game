@@ -1,0 +1,44 @@
+.title{
+    font-family: 'Potta One', cursive;
+    font-size: 3.3rem;
+}
+.img{
+    height: 400px;
+}
+.button{
+    color: black;
+    padding: 1.5% 2%;
+    background-color: burlywood;
+    display: inline;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0.7%;
+    border: none;
+    width: 50px;
+}
+.inline{
+    display: inline;
+}
+.center{
+    text-align: center;
+}
+.margin-letter{
+    padding-right: 38px;
+}
+.button-letter{
+    background-color: rgb(143, 214, 143);
+    font-weight: 700;
+}
+ul{
+    list-style-type: none;
+}
+.hidden{
+    visibility: hidden;
+}
+.disabled{
+    background-color: rgb(245, 216, 178);
+}
