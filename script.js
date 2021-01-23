@@ -1,7 +1,7 @@
 let lettersContainer = document.getElementById("letters-container")
 let wordContainer = document.getElementById("word-container")
 let word
-
+let img = document.getElementById("img")
 let startButton = document.getElementById("start")
 
 for(let i=65;i<=90;i++){
@@ -24,6 +24,7 @@ saveChanges.addEventListener("click",function(){
     let languages = speakingLanguages.checked
     let capitalCities = capitals.checked
     console.log(country,codingLanguages,languages,capitalCities)
+    img.src = "./images/guess.png"
 
 
     
@@ -75,7 +76,6 @@ async function getData(){
 
     let length =  finalArray.length
     word = finalArray[Math.ceil(Math.random()*length)].toUpperCase()
-    console.log(word)
     wordContainer.innerHTML = ""
     for(let i=0;i<word.length;i++){
         let div = document.createElement("div")
